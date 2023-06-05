@@ -4,151 +4,157 @@
 <title>Keshav Santhanam</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #e87500;
-  color: white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #154734;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #a0a0a0;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
+<div class="container" 
+    styles=width: 500px; margin: auto; border: 3px solid #73AD21;>
+  <style>
+  * {
+    box-sizing: border-box;
+    max-width: 2000px;
   }
-}
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  /* Header/logo Title */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #e87500;
+    color: white;
+  }
+
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #154734;
+  }
+
+  /* Style the navigation bar links */
   .navbar a {
-    float: none;
-    width: 100%;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
   }
-}
-</style>
-</head>
-<body>
 
-<div class="header">
-  <h1>Keshav Santhanam</h1>
-  <h2>UT Dallas Computer Science</h2>
-  <h2>Class of 2024</h2>
-</div>
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
 
-<div class="navbar">
-  <a href="https://www.linkedin.com/in/keshav-santhanam/">LinkedIn</a>
-  <a href="https://github.com/keshavsanthanam">Github</a>
-  <a href="https://leetcode.com/KeshavSanthanam/" class="right">LeetCode</a>
-  <a href="mailto:keshav.r.santhanam@gmail.com" class="right">My Email</a>
-</div>
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #a0a0a0;
+    color: black;
+  }
 
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <img src="https://media.licdn.com/dms/image/C4E03AQFvMWjw1pFf6A/profile-displayphoto-shrink_200_200/0/1643045881786?e=1691625600&v=beta&t=Va-9wKtSSfcAdaYuFiV6jvDtb9Wqk9dQEHx2O4jnhIM" style="width:150px; height:150px;">
-    <p>My name is Keshav Santhanam, and I am a computer science student at The University of Texas at Dallas. I have a passion for computer networks and system design and am starting to learn about neural networks. Currently, I am focusing the most on reviewing Data Structures and Algorithms. </p>
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="header">
+    <h1>Keshav Santhanam</h1>
+    <h2>UT Dallas Computer Science</h2>
+    <h2>Class of 2024</h2>
   </div>
-  <div class="main">
-    <h2>Recent work</h2>
-    <h4>Last updated: 6/5/2023</h4>
-	<a href="https://github.com/KeshavSanthanam/ServerClientCalculator" class="right">Server-Client Calculator</a>
-    <p></p>
-    <a href="https://github.com/KeshavSanthanam/CustomShell" class="right">Custom Shell</a>
-    <p></p>
-    <a href="https://github.com/KeshavSanthanam/MultithreadedHashing" class="right">Multithreaded Hashing</a>
-    <p></p>
-    <a href="https://github.com/KeshavSanthanam/UserNameAndID" class="right">User Name &amp; ID</a>
-    <p></p>
-    <nobr><p>For more, visit my Github at the link above or via the image below: </p>
-    <p></p>
-    <a href="https://github.com/KeshavSanthanam"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" style="width:240px; height:135px;"></a>
-    <p></p>
-    <br>
+
+  <div class="navbar">
+    <a href="https://www.linkedin.com/in/keshav-santhanam/">LinkedIn</a>
+    <a href="https://github.com/keshavsanthanam">Github</a>
+    <a href="https://leetcode.com/KeshavSanthanam/" class="right">LeetCode</a>
+    <a href="mailto:keshav.r.santhanam@gmail.com" class="right">My Email</a>
   </div>
-</div>
+
+  <div class="row">
+    <div class="side">
+      <h2>About Me</h2>
+      <img src="https://media.licdn.com/dms/image/C4E03AQFvMWjw1pFf6A/profile-displayphoto-shrink_200_200/0/1643045881786?e=1691625600&v=beta&t=Va-9wKtSSfcAdaYuFiV6jvDtb9Wqk9dQEHx2O4jnhIM" style="width:150px; height:150px;">
+      <p>My name is Keshav Santhanam, and I am a computer science student at The University of Texas at Dallas. I have a passion for computer networks and system design and am starting to learn about neural networks. Currently, I am focusing the most on reviewing Data Structures and Algorithms. </p>
+    </div>
+    <div class="main">
+      <h2>Recent work</h2>
+      <h4>Last updated: 6/5/2023</h4>
+      <a href="https://github.com/KeshavSanthanam/ServerClientCalculator" class="right">Server-Client Calculator</a>
+      <p></p>
+      <a href="https://github.com/KeshavSanthanam/CustomShell" class="right">Custom Shell</a>
+      <p></p>
+      <a href="https://github.com/KeshavSanthanam/MultithreadedHashing" class="right">Multithreaded Hashing</a>
+      <p></p>
+      <a href="https://github.com/KeshavSanthanam/UserNameAndID" class="right">User Name &amp; ID</a>
+      <p></p>
+      <nobr><p>For more, visit my Github at the link above or via the image below: </p>
+      <p></p>
+      <a href="https://github.com/KeshavSanthanam"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" style="width:240px; height:135px;"></a>
+      <p></p>
+      <br>
+    </div>
+  </div>
 
 
-<!-- 
-         <div class="footer">
-  <h3>Hosted on Github Pages</h2>
-</div>
--->
+  <!-- 
+           <div class="footer">
+    <h3>Hosted on Github Pages</h2>
+  </div>
+  -->
 
 </body>
+</div>
+
+
 </html>
